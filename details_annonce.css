@@ -1,0 +1,156 @@
+/* Styles spécifiques pour details_annonce.php */
+.message-icon {
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+}
+.message-badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    line-height: 1;
+    min-width: 16px;
+    text-align: center;
+}
+.equipment-list {
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+}
+.equipment-item {
+    margin: 8px 0;
+    padding: 8px 12px;
+    background-color: #f9f9f9;
+    color: #333;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    display: inline-block;
+}
+.equipment-item span.icon {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+.highlight {
+    background-color: #d4edda;
+    color: #28a745;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+.follow-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.follow-btn:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+.follow-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.commentaire {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+}
+.commentaire:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.host-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.host-link:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+#map {
+    height: 250px !important; /* Forcer la hauteur */
+    width: 100% !important; /* Forcer la largeur */
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: block !important; /* S'assurer qu'il est visible */
+    visibility: visible !important; /* Forcer la visibilité */
+    position: relative !important; /* S'assurer qu'il a une position */
+    z-index: 1 !important; /* S'assurer qu'il est au-dessus des autres éléments */
+    background-color: #f0f0f0; /* Ajouter une couleur de fond pour confirmer la visibilité */
+}
+#calendar {
+    max-width: 100%;
+    height: 400px !important; /* Forcer la hauteur */
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: block !important; /* S'assurer qu'il est visible */
+    visibility: visible !important; /* Forcer la visibilité */
+    position: relative !important; /* S'assurer qu'il a une position */
+    z-index: 1 !important; /* S'assurer qu'il est au-dessus des autres éléments */
+    background-color: #f0f0f0; /* Ajouter une couleur de fond pour confirmer la visibilité */
+}
+.fc-toolbar-chunk {
+    margin-right: 10px;
+}
+.fc-button-group {
+    margin-right: 10px;
+}
+.fc-button {
+    margin: 0 5px !important;
+    background-color: #3498db !important;
+    border: none !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    transition: background-color 0.3s ease !important;
+}
+.fc-button:hover {
+    background-color: #2980b9 !important;
+}
+.promotion {
+    color: #e74c3c;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.reservation-form, .message-form, .comment-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.annonce {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+.annonce:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.annonce p {
+    margin: 8px 0;
+    color: #555;
+}
